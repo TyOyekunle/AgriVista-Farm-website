@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.products{
+    display: block;
+    justify-content: center;
+   text-align: center;
+    padding: 5%;
+      
+}
+.products-text{
+    text-align: center;
+    justify-content: center;
+}
+.products h1{
+    font-family: Montserrat;
+font-size: 72px;
+font-weight: 700;
+line-height: 74.88px;
+text-align: center;
+color: #204E51;
+margin-bottom: 20px;
+}
+.products p{
+    margin-bottom: 30px;
+    font-family: Raleway;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+
+}
+.products-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.product{
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20%;
+    display: block;
+    justify-content: space-between;
+    
+    
+}
+.product p{
+    color: #204E51;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.products a{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 20.8px;
+text-align: center;
+    color: #204E51 ;
+    
+}
