@@ -5,8 +5,8 @@ import logo from '../../assets/logo.svg'
 const Navbar = () => {
   return (
     // code for navbar
-    <nav>
-        <img src={logo} alt="logo" />
+    <nav className='container'>
+        <img src={logo} alt="logo" className='logo'/>
         <ul className='nav-menu'>
             <li> Home </li>
             <li> About Us</li>

@@ -5,7 +5,7 @@
 }
 body{
     height: 100vh;
-    background-color: grey;
+    background-color: #f0f0f0;
 }
 .btn_green{
     min-width: 138px;
@@ -30,6 +30,7 @@ text-align: center;
   }
 
 .btn_white{
+    min-height: 48px;
     min-width: 138px;
     color: #214e51;
     padding: 4px 15px;
@@ -46,4 +47,9 @@ text-align: center;
     color: #FFFFFF;
     background: #214e51;
     transform: scale(1.05);
+  }
+
+  .container{
+    padding-left:5% ;
+    padding-right:5% ;
   }

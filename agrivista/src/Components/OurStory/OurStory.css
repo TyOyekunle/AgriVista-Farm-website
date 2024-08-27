@@ -1,0 +1,61 @@
+.story {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+   
+}
+
+.story-text {
+    color: #275251;
+    justify-content: space-between;
+    align-items: end;
+    margin: 50px auto;
+    width: 100%;
+
+}
+
+.story-text h1 {
+    font-family: Montserrat;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 74.88px;
+    text-align: left;
+}
+.story-text p {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #1E1E1E;
+    margin-bottom: 30px ;
+  
+}
+.story-img {
+       
+       position: relative;
+}
+
+.story-img img {
+    width: 100%;
+    margin: 50px 30px ;
+    
+}
+.story-img button{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+   left: 30%;
+   border-radius: 8px;
+   border: none;
+    bottom: 110px;
+    color: #204E51;
+    font-family: Montserrat;
+font-size: 26px;
+font-weight: 700;
+line-height: 37.44px;
+text-align: center;
+
+    
+}

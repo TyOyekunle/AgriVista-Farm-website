@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8,0,58,0.7),
+     rgba(85, 72, 132, 0.4)), 
+     url('../../assets/hero_background.svg');
+     background-size: cover;
+     background-position: center;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+
+}
+/* .hero-text{
+   position: absolute;
+   top: 100px;
+   left: 18em;
+   display:inline-block;
+   justify-content: space-between;
+   background-color: red;
+} */
+/* .hero-text h1{
+max-width: 800px;
+    font-family: Montserrat;
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 113.6px;
+    text-align: center;
+    justify-content: center;    
+    margin-bottom: 40px;
+    
+}
+.hero-text p{
+    font-family: Raleway;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+justify-content: center;
+
+} */
+
+.hero-text{
+    text-align: center;
+    max-width: 800px;
+   
+}
+.hero-text h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+.hero-text p{
+    max-width: 700px;
+     margin: 10px auto 20px; /*10px for top, left and right auto, then 20px for bottom */
+    line-height: 1.4;
+    margin-bottom: 50px;
+    }
+.hero-buttons{
+    display: inline-flex;
+   
+    gap: 60px;
+    margin-bottom: 70px;
+}
