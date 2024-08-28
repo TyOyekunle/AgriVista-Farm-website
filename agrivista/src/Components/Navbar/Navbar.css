@@ -16,17 +16,23 @@ nav{
     /* z-index: 10; */
 
 }
+.logo{
+    margin: 5px 20px;
+}
 .nav-menu{
     display: flex;
     align-items: center;
     list-style: none;
     gap: 5em;
+
+    
+}
+.nav-menu li{
     font-size: 20px;
     font-family: Raleway;
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
-    margin: 5px 20px;
-    
+    margin-top: 20px;
 }
 .nav-button{
     display: flex;

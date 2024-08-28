@@ -7,6 +7,8 @@ import OurProduct from './Components/OurProducts/OurProduct'
 import Sustainable from './Components/Sustainable/Sustainable'
 import Benefit from './Components/Benefit/Benefit'
 import Testimonial from './Components/Testimonials/Testimonial'
+import Blog from './Components/Blog/Blog'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
       <Sustainable/>
       <Benefit/>
       <Testimonial/>
+      <Blog/>
+      <Footer/>
     </div>
   )
 }

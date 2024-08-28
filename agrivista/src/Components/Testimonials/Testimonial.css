@@ -78,6 +78,7 @@
 
 .user-info-right h2 {
     color: #FFFFFF;
+    padding-bottom: 5px;
 
 
 }
@@ -97,12 +98,14 @@
     font-weight: 300;
     line-height: 24px;
     text-align: left;
+    padding-top: 10px;
 
 
 }
 
 .five_star_icon {
     width: 100px;
+    padding-top: 15px;
 }
 
 .back-arrow {

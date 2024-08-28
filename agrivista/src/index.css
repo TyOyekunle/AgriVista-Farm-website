@@ -9,7 +9,7 @@ body{
 }
 .btn_green{
     min-width: 150px;
-    min-height: 48px;
+    height: 40px;
     color: #FFFFFF;
 padding: 4px 15px;
 border-radius: 8px;
@@ -30,7 +30,7 @@ border: none;
   }
 
 .btn_white{
-    min-height: 48px;
+    height: 40px;
     min-width: 150px;
     color: #214e51;
     padding: 4px 15px;

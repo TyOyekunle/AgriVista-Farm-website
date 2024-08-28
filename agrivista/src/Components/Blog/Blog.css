@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.blogs {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+    background-color: #f0f0f0;
+
+}
+
+.blogs-text {
+    text-align: center;
+    justify-content: center;
+}
+
+.blogs-text h1 {
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 74.88px;
+    text-align: center;
+    color: #204E51;
+    margin-bottom: 20px;
+}
+
+.blogs-text p {
+    margin-bottom: 30px;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+.blogs-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: space-between;
+    margin-right: 20px;
+    width: 100%;
+   
+  
+}
+
+.blog {
+   
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+    display: block;
+    justify-content: space-between;
+}
+.blog img{
+    width:90% ;
+   
+ }  
+
+.blog-text {
+    align-items: left;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 20px;
+}
+
+.blog-text p strong {
+    color: #204E51;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.48px;
+    text-align: left;
+
+    justify-content: left;
+}
+
+.blog-text p {
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+   padding-bottom: 10px;
+
+}
+
+
+.blog a {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20.8px;
+    text-align: center;
+    color: #204E51;
+
+}

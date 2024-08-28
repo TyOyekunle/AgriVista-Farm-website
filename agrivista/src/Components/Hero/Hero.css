@@ -48,18 +48,33 @@ justify-content: center;
 
 .hero-text{
     text-align: center;
-    max-width: 800px;
-   
+    max-width: 1000px;
+    
+    
 }
 .hero-text h1{
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 700;
+    font-family: Montserrat;
+    padding-top: 70px;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;    
+   
+   
+   
 }
 .hero-text p{
     max-width: 700px;
      margin: 10px auto 20px; /*10px for top, left and right auto, then 20px for bottom */
     line-height: 1.4;
     margin-bottom: 50px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    justify-content: center;
     }
 .hero-buttons{
     display: inline-flex;
