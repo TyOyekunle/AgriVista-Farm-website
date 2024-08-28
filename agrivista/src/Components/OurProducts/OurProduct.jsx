@@ -17,19 +17,25 @@ const OurProduct = () => {
     <div className='products-body'>
         <div className='product'>
         <img src={rice} alt="" />
-        <p> Blog and Article Writing</p>
-        </div>
+        <p> <strong>Rice</strong></p>
+        <p>Li Europan lingues es <br /> membres del sam familie. <br /> Lor separat existentie es <br /> un myth. </p>
+         </div>
         <div className='product'>
         <img src={wheat} alt="" />
-        <p> Website <br /> Content</p>
+        <p> <strong> Wheat </strong> </p>
+        <p>Li Europan lingues es <br /> membres del sam familie. <br /> Lor separat existentie es <br /> un myth. </p>
         </div>
         <div className='product'>
         <img src={pumpkin} alt="" />
-        <p> Content Strategy <br /> and Consulting</p>
-        </div>
+        <p> <strong> Pumpkin </strong></p>
+        <p>Li Europan lingues es <br /> membres del sam familie. <br /> Lor separat existentie es <br /> un myth. </p>
+         </div>
         <div className='product'>
         <img src={cabbage} alt="" />
-        <p> Social Media <br/> Management</p>
+        <div className='product-text'>
+        <p> <strong> Cabbage </strong></p>
+        <p>Li Europan lingues es <br /> membres del sam familie. <br /> Lor separat existentie es <br /> un myth. </p>
+        </div>
         </div>
        
     </div>

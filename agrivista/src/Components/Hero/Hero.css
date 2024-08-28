@@ -63,7 +63,6 @@ justify-content: center;
     }
 .hero-buttons{
     display: inline-flex;
-   
     gap: 60px;
     margin-bottom: 70px;
 }

@@ -8,7 +8,7 @@ body{
     background-color: #f0f0f0;
 }
 .btn_green{
-    min-width: 138px;
+    min-width: 150px;
     min-height: 48px;
     color: #FFFFFF;
 padding: 4px 15px;
@@ -20,7 +20,7 @@ font-weight: 600;
 cursor: pointer;
 transition: 0.5s;
 text-align: center;
-
+border: none;
 }
 
 .btn_green:hover{
@@ -31,7 +31,7 @@ text-align: center;
 
 .btn_white{
     min-height: 48px;
-    min-width: 138px;
+    min-width: 150px;
     color: #214e51;
     padding: 4px 15px;
     border-radius: 8px;
@@ -42,12 +42,29 @@ text-align: center;
     cursor: pointer;
     transition: 0.5s;
     text-align: center;
+    
 }
 .btn_white:hover{
     color: #FFFFFF;
     background: #214e51;
     transform: scale(1.05);
   }
+
+  .btn_white_transparent{
+    min-height: 48px;
+    min-width: 138px;
+    color: #FFFFFF;
+    padding: 4px 15px;
+    border-radius: 8px;
+    background: transparent;
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+    border: 1px solid #fff;
+}
 
   .container{
     padding-left:5% ;

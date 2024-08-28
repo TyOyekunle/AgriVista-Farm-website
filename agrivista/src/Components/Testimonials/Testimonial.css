@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.testimonial_div {
+    margin: 10px auto;
+    background-color: #f0f0f0;
+    position: relative;
+    padding: 0 80px;
+}
+
+.testimonial_heading {
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.testimonial_heading h1 {
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 74.88px;
+    text-align: center;
+    color: #204E51;
+    margin-bottom: 20px;
+}
+
+.testimonial_heading p {
+    margin-bottom: 30px;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+
+.slide {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    padding: 40px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    line-height: 1.4;
+    background-color: #214e51;
+
+}
+
+.slide:hover {
+    transform: scale(1.01);
+}
+
+.testimonial_picture {
+    width: 170px;
+    border-radius: 8px;
+    margin-right: 10px;
+    border: none;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 15px;
+    justify-content: center;
+    width: 80%;
+
+    gap: 10px;
+
+}
+
+.user-info-right {
+
+    display: block;
+    padding-bottom: 30px;
+
+}
+
+.user-info-right h2 {
+    color: #FFFFFF;
+
+
+}
+
+.user-info-right p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.user-info-right span {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+
+
+}
+
+.five_star_icon {
+    width: 100px;
+}
+
+.back-arrow {
+    position: absolute;
+    left: 2%;
+    transform: translateY(-50%);
+    width: 80px;
+    top: 70%;
+    bottom: 30%;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.next-arrow {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 70%;
+    bottom: 30%;
+    left: auto;
+    right: 0;
+    width: 150px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.slider {
+    overflow: hidden;
+
+}
+
+.slider ul {
+    display: flex;
+    width: 200%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    justify-content: center;
+
+}
+
+.slider ul li {
+    list-style: none;
+    width: 50%;
+    padding: 20px;
+}

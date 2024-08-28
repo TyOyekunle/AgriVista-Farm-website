@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.benefits {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+   
+    
+}
+
+.benefits-left {
+    color: #275251;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    width: 100%;
+    
+}
+
+.benefits-left h2 {
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72.08px;
+    text-align: left;
+    margin-top: 80px;
+    margin-bottom: 20px;
+   
+
+}
+.benefits-left p {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #1E1E1E;
+ 
+ padding: 20px 0px;
+  }
+  .benefits-right{
+    display: block;
+    margin: 50px auto;
+    background-color: #204E51;
+    width: 80%;
+    border-radius: 8px;
+
+  }
+  .benefit{
+    display: flex;
+    gap: 30px;
+    margin: 50px auto;
+    justify-content: center;
+    
+  }
+  .benefit img{
+    width: 70px;
+  }
+  .sub_benefit{
+    display: inline-block;
+    justify-content: space-between;
+   
+    
+  }
+  .sub_benefit h2{
+    font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+line-height: 39px;
+text-align: left;
+color: #FFFFFF;
+  }
+  .sub_benefit p{
+    font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+color: #FFFFFF;
+    
+  }
+
+  .benefits-left-button{
+    display: inline-flex;
+
+    position: relative;
+    justify-content: space-between;
+    
+
+  }
+  .benefits-left-button button{
+    min-width: 200px;
+    min-height: 48px;
+    color: #FFFFFF;
+padding: 4px 15px;
+border-radius: 8px;
+background: #214e51;
+font-size: 20px;
+font-family: Raleway;
+font-weight: 600;
+cursor: pointer;
+transition: 0.5s;
+text-align: center;
+border: none;
+}
+  .benefits-left-button img{
+    position: absolute;
+    right: 20px;
+    bottom: 35%;
+    width: 15px;
+  }

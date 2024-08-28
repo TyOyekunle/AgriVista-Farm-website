@@ -10,7 +10,7 @@ const OurService = () => {
             <div className='services-text'>
                 <h1> Our Services </h1>
                 <p>Li Europan lingues es membres del sam familie.
-                    Lor separat existentie es un myth Por scientie, musica.
+                   <br /> Lor separat existentie es un myth Por scientie, musica.
                 </p>
             </div>
             <div className='services-body'>
